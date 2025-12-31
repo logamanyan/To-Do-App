@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+function goBack() {
+    window.history.back();
+}
+
+function goHome() {
+    // redirect to home page
+    window.location.href = "home.html";
+}
+</script>
+
+<body>
+
+<header>
+    <h2>Todo App</h2>
+    <button class="back-btn" onclick="goBack()">← Back</button>
+
+</header>
+
+<main class="app">
+    <h3>Login</h3>
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+    <p class="link-text">New user? <a href="signup.html">Create account</a></p>
+</main>
+
+</body>
+</html>
